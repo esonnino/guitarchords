@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #song-container {
+    margin-bottom: 20px;
+  }
+  
+  #lyrics-container {
+    margin-bottom: 10px;
+  }
+  
+  .lyrics-wrapper {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 5px;
+  }
+  
+  #lyrics-input {
+    width: 400px;
+    height: 60px;
+    border: none;
+  }
+  
+  #chords-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 1px solid #ccc;
+  }
+  
+  #chords-output {
+    font-size: 18px;
+  }
+  
+  .chord {
+    font-weight: bold;
+  }
+  
+  #chord-dropdown {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: none;
+    z-index: 1;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  #chord-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #chord-list li {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  #chord-list li:hover {
+    background-color: #f0f0f0;
+  }
+  

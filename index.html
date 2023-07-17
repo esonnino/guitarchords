@@ -1,1 +1,35 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guitar Chords App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Guitar Chords App</h1>
+  
+  <div id="song-container">
+    <div id="lyrics-container">
+      <div class="lyrics-wrapper">
+        <input type="text" id="lyrics-input" placeholder="Lyrics">
+      </div>
+    </div>
+    <button id="add-chord-btn">Add Chord</button>
+    <button id="submit-btn">Submit</button>
+  </div>
+  
+  <div id="chords-container">
+    <div id="chords-output"></div>
+  </div>
+  
+  <div id="chord-dropdown">
+    <ul id="chord-list">
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+      <!-- Add more chords as needed -->
+    </ul>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
